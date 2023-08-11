@@ -16,6 +16,14 @@ public class EjerRobot {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        Robot robotito=new Robot(7252);
+        Robot robotote=new Robot(5225);
+        Hombre juan=new Hombre("Juan");
+        
+        juan.JugarConRobot(robotote);
+        juan.JugarConRobot(robotito);
+        
+        
     }
     
 }

@@ -10,11 +10,11 @@ package ejerrobot;
  * @author Usuario
  */
 public class Hombre {
-    private Robot robot;
+   
     private String nombre;
 
-    public Hombre(Robot robot, String nombre) {
-        this.robot = robot;
+    public Hombre(String nombre) {
+      
         this.nombre = nombre;
     }
     
