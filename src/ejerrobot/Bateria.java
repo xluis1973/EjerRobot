@@ -5,10 +5,20 @@ public class Bateria {
     private String tipoBateria;
     private int carga;
     
-    public Bateria(){
-    
-        this.carga=1000;
+    public Bateria(){    
+        this.carga=1000;         
     }
+    
+    public void avanza(int pasos){
+        this.carga -= pasos;
+    }
+    
+    public void carga(){
+        this.carga = 1000;
+    }
+    
+    
+    
 
     public String getTipoBateria() {
         return tipoBateria;
